@@ -1,0 +1,16 @@
+{
+    "name": "gy/hzc",
+    "description": "test",
+    "autoload": {
+        "psr-4": {
+            "Gy\\Hzc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "何志成",
+            "email": "1115259637@qq.com"
+        }
+    ],
+    "require": {}
+}
