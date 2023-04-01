@@ -20,7 +20,7 @@ class PackagetestServiceProvider extends ServiceProvider
      {
          $this->loadViewsFrom(__DIR__ . '/views', 'Packagetest'); // 视图目录指定
          $this->publishes([
-             __DIR__.'/views' => base_path('resources/views/vendor/packagetest'),  // 发布视图目录到resources 下
+             __DIR__.'/views' => base_path('resources/views/packagetest'),  // 发布视图目录到resources 下
              __DIR__.'/config/packagetest.php' => config_path('packagetest.php'), // 发布配置文件到 laravel 的config 下
          ]);
      }

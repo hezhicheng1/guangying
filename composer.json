@@ -3,7 +3,7 @@
     "description": "test",
     "autoload": {
         "psr-4": {
-            "Gy\\Hzc\\": "src/"
+            "Gy\\Packagetest\\": "vendor/gy492/hzc/src"
         }
     },
     "authors": [

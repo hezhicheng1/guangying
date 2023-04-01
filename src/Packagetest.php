@@ -2,6 +2,7 @@
 namespace Gy\Packagetest;
 use Illuminate\Session\SessionManager;
 use Illuminate\Config\Repository;
+use App\Models\Banner;
 class Packagetest
 {
  /**
@@ -26,9 +27,9 @@ class Packagetest
   * @param string $msg
   * @return string
   */
- public function test_rtn($msg = ''){
-     $config_arr = $this->config->get('packagetest.options');
-     return $msg.' <strong>from your custom develop package!</strong>>';
+ public function test_banner('){
+      $data = Banner::get()->toarray(); 
+     return $data;
  }
 }
 
