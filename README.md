@@ -17,3 +17,6 @@ php artisan vendor:publish --provider="Gy\Packagetest\PackagetestServiceProvider
 php artisan make:migration create_table_banner
 生成数据表
 php artisan migrate
+
+填充数据
+php artisan db:seed --class 'BannerTableSeeder'
