@@ -20,9 +20,9 @@ class PackagetestServiceProvider extends ServiceProvider
      {
          $this->loadViewsFrom(__DIR__ . '/views', 'Packagetest'); // 视图目录指定
          $this->publishes([
-             __DIR__.'/views' => base_path('resources/views/packagetest'),  // 发布视图目录到resources 下
+             __DIR__.'/views/packagetest.blade.php' => base_path('resources/views/packagetest.blade.php'),  // 发布视图目录到resources 下
              __DIR__.'/config/packagetest.php' => config_path('packagetest.php'), // 发布配置文件到 laravel 的config 下
-             __DIR__.'/database/2023_04_02_001616_create_table_banner.php' => base_path('database/migrations'),  // 发布配置文件到 laravel 的config 下
+             __DIR__.'/database/2023_04_02_001616_create_table_banner.php' => base_path('database/migrations/2023_04_02_001616_create_table_banner.php'),  // 发布配置文件到 laravel 的config 下
          ]);
      }
      /**

@@ -27,7 +27,7 @@ class Packagetest
   * @param string $msg
   * @return string
   */
- public function test_banner('){
+ public function test_banner(){
       $data = Banner::get()->toarray(); 
      return $data;
  }

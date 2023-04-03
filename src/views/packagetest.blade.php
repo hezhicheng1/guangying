@@ -15,9 +15,9 @@
     <div class="layuimini-container">
     <div class="layuimini-main">
       <ul class="layui-nav" lay-filter="">
-        <li class="layui-nav-item"><a href="http://jiaxiaoadmin/">首页</a></li>
-        <li class="layui-nav-item"><a href="http://jiaxiaoadmin/api/activitylist">消息列表</a></li>
-        <li class="layui-nav-item layui-this"><a href="http://jiaxiaoadmin/api/bannerlist">轮播图</a></li>
+        <li class="layui-nav-item"><a href="http://packagistdemo/">首页</a></li>
+        <li class="layui-nav-item"><a href="http://packagistdemo/api/activitylist">消息列表</a></li>
+        <li class="layui-nav-item layui-this"><a href="http://packagistdemo/api/bannerlist">轮播图</a></li>
       </ul>
     </div>
     </div>
