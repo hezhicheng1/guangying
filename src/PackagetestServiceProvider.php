@@ -22,7 +22,9 @@ class PackagetestServiceProvider extends ServiceProvider
          $this->publishes([
              __DIR__.'/views/packagetest.blade.php' => base_path('resources/views/packagetest.blade.php'),  // 发布视图目录到resources 下
              __DIR__.'/config/packagetest.php' => config_path('packagetest.php'), // 发布配置文件到 laravel 的config 下
-             __DIR__.'/database/2023_04_02_001616_create_table_banner.php' => base_path('database/migrations/2023_04_02_001616_create_table_banner.php'),  // 发布配置文件到 laravel 的config 下
+             __DIR__.'/database/2023_04_02_001616_create_table_banner.php' => base_path('database/migrations/2023_04_02_001616_create_table_banner.php'),  // 发布数据库表迁移文件
+              __DIR__.'/model/Banner.php' => base_path('app/Models/Banner.php'),  // 发布模型文件
+              __DIR__.'/seeds/BannerTableSeeder.php' => base_path('database/seeds/BannerTableSeeder.php'),  // 发布填充文件
          ]);
      }
      /**
