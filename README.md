@@ -11,3 +11,9 @@ aliases 里添加
 
 发布服务
 php artisan vendor:publish --provider="Gy\Packagetest\PackagetestServiceProvider" 
+
+
+创建迁移表文件
+php artisan make:migration create_table_banner
+生成数据表
+php artisan migrate
